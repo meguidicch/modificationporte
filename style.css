@@ -12,7 +12,7 @@
   text-rendering: optimizeLegibility;
 }
 
-.container {
+#container {
   max-width: 400px;
   width: 100%;
   margin: 0 auto;
@@ -31,7 +31,7 @@
 #contact {
   background: #F9F9F9;
   padding: 25px;
-  margin: 150px 0;
+  margin: 150px 0 50px 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
@@ -175,14 +175,13 @@ font-family: monospace;
 
 }
 
-.About1 {
+#About1 {
     display: flex;
     gap: 20px;
     color: rgb(121, 32, 63);
-    text-indent: 60px;
     font-size: 1rem;
-    text-align: center;
-    
+    margin-left:25px; 
+    margin-right:150px;   
 }
 
 .icon-logo h1{
